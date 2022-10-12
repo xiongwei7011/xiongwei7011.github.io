@@ -805,6 +805,8 @@
     });
     // 搜索模块 -----------------------
     function intoSearch() {
+        window.localStorage.setItem("searchlistmenu", 'group-b')
+        window.localStorage.setItem("searchlist", 'type-baidu1')
         if(window.localStorage.getItem("searchlist")){
             $(".hide-type-list input#"+window.localStorage.getItem("searchlist")).prop('checked', true);
             $(".hide-type-list input#m_"+window.localStorage.getItem("searchlist")).prop('checked', true);
