@@ -1146,6 +1146,7 @@ input.nav-link:disabled,input.nav-link[readonly]{background-color:transparent;op
 /*--------------------------------------------------------------
 ## black style
 --------------------------------------------------------------*/
+/* 暗黑模式下的背景色 */
 .io-black-mode{background-color:#1b1d1f}
 .io-black-mode .logo-light{display:none!important}
 .io-black-mode .logo-dark{display:initial!important}
