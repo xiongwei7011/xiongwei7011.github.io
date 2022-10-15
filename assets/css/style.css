@@ -227,6 +227,11 @@ a>i.sidebar-more{transform:scale(.8)}
 .url-card .url-info .title {
     min-height: 42px;
 }
+.url-card .url-info .price {
+    display: inline-block;
+    color: #ff2a2d;
+    height: 20px;
+}
 .url-card .url-goto-after{height:24px;border-top:1px solid rgba(136,136,136,.2)}
 .url-card .url-goto{position:absolute;bottom:0;left:0px;right:0}
 .url-card .card-body{
