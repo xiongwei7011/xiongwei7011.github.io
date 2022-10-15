@@ -222,7 +222,11 @@ a>i.sidebar-more{transform:scale(.8)}
 .url-card .url-body:hover .url-like{opacity:1}
 .url-card .url-info{
     overflow:hidden;
-    /*padding-right:5px*/
+    padding-right:5px
+}
+.url-card .btn-box .url-info {
+    height: 88px;
+    padding-right: 0;
 }
 .url-card .btn-box .url-info .title {
     min-height: 42px;
