@@ -73,7 +73,7 @@ a>i.sidebar-more{transform:scale(.8)}
 .sidebar-nav-inner .flex-fill{overflow:hidden;-webkit-overflow-scrolling:touch}
 .border-color{border-color:rgba(129,129,129,.15)!important}
 .border-t{border-color:rgba(129,129,129,.15)!important}
-.logo-expanded, .logo-collapsed {
+.logo-expanded, .logo-collapsed, .navbar-brand {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -92,8 +92,14 @@ a>i.sidebar-more{transform:scale(.8)}
     align-content: center;
 }
 .logo-title {
-    font-size: 20px;
     font-weight: bold
+}
+.logo-expanded, .logo-collapsed .logo-title {
+    font-size: 1.4em;
+    font-weight: bold
+}
+.navbar-brand .logo-title {
+    font-size: 1.2em;
 }
 .mini-sidebar .logo .logo-expanded{display:none}
 .mini-sidebar .logo .logo-collapsed{display:block}
