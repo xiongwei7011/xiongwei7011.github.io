@@ -73,6 +73,28 @@ a>i.sidebar-more{transform:scale(.8)}
 .sidebar-nav-inner .flex-fill{overflow:hidden;-webkit-overflow-scrolling:touch}
 .border-color{border-color:rgba(129,129,129,.15)!important}
 .border-t{border-color:rgba(129,129,129,.15)!important}
+.logo-expanded, .logo-collapsed {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    vertical-align: middle;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+.logo-title {
+    font-size: 20px;
+    font-weight: bold
+}
 .mini-sidebar .logo .logo-expanded{display:none}
 .mini-sidebar .logo .logo-collapsed{display:block}
 .mini-sidebar .sidebar-menu,.mini-sidebar .sidebar-menu{width:60px}
